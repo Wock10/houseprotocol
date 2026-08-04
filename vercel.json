@@ -1,0 +1,18 @@
+{
+  "services": {
+    "houseprotocol": {
+      "root": ".",
+      "framework": "nextjs",
+      "buildCommand": "npm install --include=dev && npm run build"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": {
+        "type": "service",
+        "service": "houseprotocol"
+      }
+    }
+  ]
+}

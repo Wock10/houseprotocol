@@ -10,7 +10,7 @@ export default function RiskPage() {
     <PageShell
       eyebrow="Safety"
       title="Risk Principles"
-      lead="Lenders underwrite a real casino. Caps, buffers, and pauses exist to make ruin unlikely — not to pretend variance does not exist."
+      lead="Lenders underwrite a real casino. Caps, buffers, and pauses exist to make ruin unlikely  -  not to pretend variance does not exist."
     >
       <h2>Shares can go down</h2>
       <p>
@@ -31,7 +31,7 @@ export default function RiskPage() {
         </li>
         <li>
           <strong>Reserve / insurance buffer</strong> funded by 0.50% of volume
-          until a target ratio (about 10–15% of TVL), then that stream redirects
+          until a target ratio (about 10-15% of TVL), then that stream redirects
           to lender yield
         </li>
         <li>

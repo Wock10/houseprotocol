@@ -11,7 +11,7 @@ export default function TokenomicsPage() {
     <PageShell
       eyebrow="THP"
       title="Tokenomics"
-      lead="THP is a fixed-supply incentive and liquidity token. Early acquisition is through protocol activity and protocol-owned bids — external buys may never unlock."
+      lead="THP is a fixed-supply incentive and liquidity token. Early acquisition is through protocol activity and protocol-owned bids  -  external buys may never unlock."
     >
       <h2>Supply</h2>
       <p>
@@ -21,7 +21,7 @@ export default function TokenomicsPage() {
       <ul>
         {TOKEN_ALLOCATION.map((row) => (
           <li key={row.label}>
-            <strong>{row.pct}</strong> — {row.label}
+            <strong>{row.pct}</strong>  -  {row.label}
           </li>
         ))}
       </ul>
@@ -36,20 +36,20 @@ export default function TokenomicsPage() {
       <h2>How THP is earned</h2>
       <ul>
         <li>
-          <strong>Players</strong> — emissions by wager volume during the
+          <strong>Players</strong>  -  emissions by wager volume during the
           bootstrap window.
         </li>
         <li>
-          <strong>Lenders</strong> — emissions by vault shares × time.
+          <strong>Lenders</strong>  -  emissions by vault shares x time.
         </li>
         <li>
-          <strong>NFT holders</strong> — timed bootstrap emissions during the
+          <strong>NFT holders</strong>  -  timed bootstrap emissions during the
           NFT utility window (curve details later).
         </li>
       </ul>
       <p>
         There is a <strong>daily emission cap</strong>. Fee earnings (ETH rake
-        yield) are not capped the same way — depositors keep uncapped claim on
+        yield) are not capped the same way  -  depositors keep uncapped claim on
         their yield stream. Emissions use an <strong>inverse-activity</strong>{" "}
         bias in the bootstrap window: quieter days mint more THP within a
         min/max band so the flywheel can still form when volume is thin.

@@ -8,7 +8,7 @@ export default function Home() {
 
       <section className="relative mx-auto flex min-h-[78vh] max-w-5xl flex-col justify-center px-5 py-20 sm:py-28">
         <p className="animate-rise mb-5 text-xs uppercase tracking-[0.28em] text-gold">
-          Whitepaper v1 · Ethereum
+          Whitepaper v1 | Ethereum
         </p>
         <h1 className="animate-rise font-[family-name:var(--font-display)] text-[clamp(2.8rem,8vw,5.5rem)] leading-[0.95] tracking-tight text-foreground">
           The House Protocol
@@ -17,7 +17,7 @@ export default function Home() {
           Anyone can be the house.
         </p>
         <p className="animate-rise-delay mt-4 max-w-xl text-base leading-relaxed text-muted/90 sm:text-lg">
-          A peer-funded ETH bankroll that any slots-style game can plug into —
+          A peer-funded ETH bankroll that any slots-style game can plug into  - 
           4% protocol rake, then a fair game. Lenders earn yield. Builders earn
           referrer flow. Players and lenders earn THP.
         </p>

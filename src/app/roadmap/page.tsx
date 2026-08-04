@@ -7,23 +7,23 @@ export const metadata: Metadata = {
 
 const phases = [
   {
-    title: "1 · Whitepaper",
-    body: "Shareable product site and locked economic sketch — you are here.",
+    title: "1 | Whitepaper",
+    body: "Shareable product site and locked economic sketch  -  you are here.",
   },
   {
-    title: "2 · Contracts",
+    title: "2 | Contracts",
     body: "Vault, rake router, VRF play module, THP token, referrer wiring, pause controls.",
   },
   {
-    title: "3 · NFT bootstrap",
+    title: "3 | NFT bootstrap",
     body: "Hard-capped public mint. Majority ETH to bankroll, minority to POL seed. Utility window starts.",
   },
   {
-    title: "4 · Flagship slots",
+    title: "4 | Flagship slots",
     body: "Ordinary on-chain slots on the shared house. Referrer locked to treasury.",
   },
   {
-    title: "5 · Integrations",
+    title: "5 | Integrations",
     body: "Third-party skins and games using the minimal play API and earning referrer flow.",
   },
 ];
@@ -44,14 +44,14 @@ export default function RoadmapPage() {
             <p className="text-xs uppercase tracking-[0.18em] text-gold">
               Phase {index + 1}
             </p>
-            <h2 className="!mt-2">{phase.title.replace(/^\d+ · /, "")}</h2>
+            <h2 className="!mt-2">{phase.title.replace(/^\d+ | /, "")}</h2>
             <p>{phase.body}</p>
           </li>
         ))}
       </ol>
       <h2>Governance</h2>
       <p>
-        Launch parameters — fee splits, caps, pause — sit behind a multisig with
+        Launch parameters  -  fee splits, caps, pause  -  sit behind a multisig with
         a path to broader governance. The whitepaper is the starting
         constitution, not the final bytecode.
       </p>

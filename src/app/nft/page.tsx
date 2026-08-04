@@ -10,7 +10,7 @@ export default function NftPage() {
     <PageShell
       eyebrow="Bootstrap"
       title="Initial NFT Offering"
-      lead="A fixed-size, flat-price public NFT sale hard-caps the raise, funds the house, seeds THP liquidity, and grants timed — not perpetual — upside to early supporters."
+      lead="A fixed-size, flat-price public NFT sale hard-caps the raise, funds the house, seeds THP liquidity, and grants timed  -  not perpetual  -  upside to early supporters."
     >
       <h2>Sale shape</h2>
       <ul>

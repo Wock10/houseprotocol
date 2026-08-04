@@ -25,7 +25,7 @@ export default function LegalPage() {
         Nothing on this site is an offer to sell, or a solicitation to buy,
         securities, investment contracts, or any other regulated financial
         product. THP, NFTs, and vault shares are described as protocol
-        mechanisms — not as equity, debt, or guaranteed yield instruments.
+        mechanisms  -  not as equity, debt, or guaranteed yield instruments.
       </p>
 
       <h2>No guaranteed returns</h2>

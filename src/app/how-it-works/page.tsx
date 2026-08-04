@@ -45,8 +45,8 @@ export default function HowItWorksPage() {
           <strong>100% RTP</strong> (fair EV).
         </li>
         <li>
-          The inner game is not “96% RTP.” Stacking rake and a second house edge
-          would silently push effective RTP near 92% — the protocol does not do
+          The inner game is not "96% RTP." Stacking rake and a second house edge
+          would silently push effective RTP near 92%  -  the protocol does not do
           that.
         </li>
       </ul>
@@ -56,7 +56,7 @@ export default function HowItWorksPage() {
         {RAKE_SPLIT.map((row) => (
           <li key={row.label}>
             <strong>
-              {row.pct} — {row.label}.
+              {row.pct}  -  {row.label}.
             </strong>{" "}
             {row.detail}
           </li>
@@ -66,7 +66,7 @@ export default function HowItWorksPage() {
       <h2>House vault (lenders)</h2>
       <p>
         Lenders deposit <strong>ETH</strong> into a fungible share vault. Share
-        price can fall after unlucky variance — depositors are underwriting the
+        price can fall after unlucky variance  -  depositors are underwriting the
         house, not holding a guaranteed note. In return they receive:
       </p>
       <ul>
@@ -74,7 +74,7 @@ export default function HowItWorksPage() {
           Claimable cash yield from the <strong>1.25%</strong> lender bucket
           (and buffer overflow after the reserve target is met)
         </li>
-        <li>THP emissions based on shares × time</li>
+        <li>THP emissions based on shares x time</li>
       </ul>
       <p>
         Withdrawals are available when the vault is idle (no unsettled bets,
@@ -121,14 +121,14 @@ export default function HowItWorksPage() {
       <p>
         Integrator games may set <code>referrer</code> to their own address and
         earn <strong>0.75%</strong> of volume they drive. The flagship slots
-        experience hardcodes referrer to the protocol treasury — you cannot
+        experience hardcodes referrer to the protocol treasury  -  you cannot
         siphon flagship flow. Forking the flagship is free game.
       </p>
 
       <h2>Flagship game</h2>
       <p>
         v1 ships a first-party on-chain slots surface: polished enough to use,
-        intentionally ordinary. The point is the bankroll and the API — not a
+        intentionally ordinary. The point is the bankroll and the API  -  not a
         moat around one theme pack.
       </p>
 

@@ -19,7 +19,7 @@ const body = Source_Sans_3({
 export const metadata: Metadata = {
   title: {
     default: "The House Protocol",
-    template: "%s · The House Protocol",
+    template: "%s | The House Protocol",
   },
   description:
     "A peer-funded, decentralized casino house on Ethereum. Anyone can be the house.",

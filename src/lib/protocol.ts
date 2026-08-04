@@ -2,13 +2,13 @@ export const RAKE_SPLIT = [
   {
     label: "Lender yield",
     pct: "1.25%",
-    detail: "Claimable ETH yield for vault depositors — separate from principal.",
+    detail: "Claimable ETH yield for vault depositors  -  separate from principal.",
   },
   {
     label: "Insurance buffer",
     pct: "0.50%",
     detail:
-      "Fills until a target reserve (about 10–15% of TVL), then redirects to lender yield.",
+      "Fills until a target reserve (about 10-15% of TVL), then redirects to lender yield.",
   },
   {
     label: "THP liquidity (POL)",
