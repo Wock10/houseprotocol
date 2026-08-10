@@ -1,19 +1,12 @@
-# The House Protocol
+# The House Protocol (archived)
 
-Public whitepaper / product site for The House Protocol (THP).
+**Archived.** Active work moved to the private master monorepo: [github.com/Wock10/thp](https://github.com/Wock10/thp) (invite-only).
 
-**Live:** [https://houseprotocol.vercel.app](https://houseprotocol.vercel.app)
+This public repo and the former site at `houseprotocol.vercel.app` are **reference only** — not the source of truth for design, docs, or implementation.
 
-Repo: [github.com/Wock10/houseprotocol](https://github.com/Wock10/houseprotocol)
-
-## Local
+## Local (legacy)
 
 ```bash
 npm install
 npm run dev
 ```
-
-## Deploy
-
-- **Share URL:** https://houseprotocol.vercel.app
-- **Render:** `render.yaml` is included. Sign into Render and Blueprint-deploy the GitHub repo for `houseprotocol.onrender.com` when you want that host.
